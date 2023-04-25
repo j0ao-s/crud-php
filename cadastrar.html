@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cadastrar Usuários - Teste</title>
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	
+	<div class="container">
+		<div class="img-form">
+			<img src="img/undraw_engineering_team_a7n2.svg" alt="Imagem ilustrativa de três pessoas conversando">
+		</div>
+	
+		<div class="form">
+
+			<div class="cabecalho-cadastro">
+				<h1>Cadastrar Usuário</h1>
+				
+			</div>
+		
+			<form method="post" action="cadastrar_action.php">
+
+				<div class="input-grp">
+					<div class="input-box">
+						<label for="razaoSocial">Razão Social:</label>
+						<input type="text" id="razaoSocial" name="razaoSocial" required><br><br>
+					</div>
+					
+					<div class="input-box">
+						<label for="nomeFantasia">Nome Fantasia:</label>
+						<input type="text" id="nomeFantasia" name="nomeFantasia" required><br><br>
+					</div>
+				
+					<div class="input-box">
+						<label for="cnpj">CNPJ:</label>
+						<input type="text" id="cnpj" name="cnpj" required><br><br>
+					</div>
+				
+					<div class="input-box">
+						<label for="endereco">Endereço:</label>
+						<input type="text" id="endereco" name="endereco" required><br><br>
+					</div>
+				
+					<div class="input-box">
+						<label for="telefone">Telefone:</label>
+						<input type="tel" id="telefone" name="telefone" required><br><br>
+					</div>	
+				
+				</div>
+			
+				<input class="botao-enviar" type="submit" value="Enviar">
+				<!--Em resumo, este código é usado para exibir um formulário HTML que permite ao usuário cadastrar um novo usuário. Quando o usuário preenche os campos e clica no botão "Enviar", os dados do formulário são enviados para a página "cadastrar_action.php" para processamento.-->
+			</form>
+
+
+
+		</div>
+
+	</div>
+
+</body>
+</html>
