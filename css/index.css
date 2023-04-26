@@ -53,6 +53,8 @@ img {
 }
 
 .botao-enviar {
+    content: "Enviar";
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,6 +69,11 @@ img {
 .botao-enviar:hover{
     background-color: #6b63fff1;
 }
+
+/* .botao-enviar input[type="submit"]::before {
+    content: "Enviar";
+    color: #fff;
+} */
 
 .cabecalho-cadastro h1::after {
     content: '';
@@ -112,4 +119,42 @@ img {
     font-size: 0.75rem;
     font-weight: 600;
     color: #000000c0;
+}
+
+@media screen and (max-width: 1336px) {
+    .img-form {
+        display: none;
+    }
+
+    .img-form img {
+        display: none;
+    }
+
+    .container {
+        width: 50%;
+    }
+
+    .form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1068px) {
+    .container {
+        width: 90%;
+        height: 70vh;
+    }
+
+    .input-grp {
+        flex-direction: column;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+        max-height: 10rem;
+        padding: 0 3rem;
+    }
+
+    .botao-enviar {
+        margin-top: 2rem;
+
+    }
 }
