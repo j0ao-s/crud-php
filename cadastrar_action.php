@@ -16,7 +16,7 @@
         $sql->bindValue(':cnpj', $cnpj);
         $sql->execute();
 
-        if($sql -> rowCount() === 0){  //valida
+        if($sql -> rowCount() === 0){  //valída
 
             $sql = $pdo->prepare("INSERT INTO usuarios (razaoSocial, nomeFantasia, cnpj, endereco,telefone) VALUES (:razaoSocial, :nomeFantasia, :cnpj, :endereco, :telefone)");
     
@@ -32,13 +32,13 @@
     
             
         } else {
-            header("Location: cadastrar.php");
+            header("Location: cadastrar.html");
             exit;
         }
 
 
     } else {
-        header("Location: cadastrar.php");
+        header("Location: cadastrar.html");
         exit;
     }
 
