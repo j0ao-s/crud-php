@@ -31,7 +31,7 @@ Estas são as tecnologias utilizadas neste projeto!
 ![Fork img](img/readme/fork.png)
 
 
-* Abra o terminal Git Bash
+* Abra o terminal Git Bash na pasta _php-crud_ clicando com o botão direito
 
 ![Git Bash img](img/readme/abrir-gitbash.png)
 
